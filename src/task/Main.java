@@ -4,6 +4,8 @@ public class Main {
         printIsLeap(2020);
         printInstallationMessage(0, 2013);
         printCalculateDeliveryDays(95);
+
+
     }
 
     private static void printIsLeap(int year) {
@@ -35,6 +37,6 @@ public class Main {
         } else {
             result = (Math.abs((distance - start) / step) + 2);
         }
-        System.out.println("Потребуется дней: " + result);
+        //System.out.println("Потребуется дней: " + result);
     }
 }
