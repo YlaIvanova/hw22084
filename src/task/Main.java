@@ -1,9 +1,11 @@
 package task;
 public class Main {
     public static void main(String[] args) {
+        int rezult = printCalculateDeliveryDays(95);
+        System.out.println("Потребуется дней: " + rezult );
         printIsLeap(2020);
         printInstallationMessage(0, 2013);
-        printCalculateDeliveryDays(95);
+        //printCalculateDeliveryDays(95);
         //System.out.println("Потребуется дней: " + rezult );
     }
 
